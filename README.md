@@ -122,18 +122,19 @@ Virtual network - Like your house. It is a measure of protection you can set up.
  way oh housing your resources so they can talk to each other. In a virtual wireless environment.
 
  ### Single Azure VM
+![diagram](VMdiagram.png)
 
- 1 - Where everything lives / Region 
- 2 - Like a container to organise everything you have / resource group
- 3 - Like a house - structure / Virtual Network
- 4 - Like a room inside house / Subnet
- 5 - Like a computer device within a room / virtual machine
- 6 - Stores the files for the VM / disk
- 7 - Communicate with the computer through this / Network Interface Controller NIC
- 8 - Your public address / Public IP address
- 9 - like the security system on the computer / network security group NSG
- 10, 11 - rules to decide what types of people (traffic) can access the computer / NSG rule allow SSH allow HTTP
- 12 - Like a padlock on the computer / SSH key
+* 1 - *Where everything lives / Region 
+* 2 - Like a container to organise everything you have / resource group
+* 3 - Like a house - structure / Virtual Network
+* 4 - Like a room inside house / Subnet
+* 5 - Like a computer device within a room / virtual machine
+* 6 - Stores the files for the VM / disk
+* 7 - Communicate with the computer through this / Network Interface Controller NIC
+* 8 - Your public address / Public IP address
+* 9 - like the security system on the computer / network security group NSG
+* 10, 11 - rules to decide what types of people (traffic) can access the computer / NSG rule allow SSH allow HTTP
+* 12 - Like a padlock on the computer / SSH key
 
  ### Creating VM in Azure
 
