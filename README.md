@@ -228,3 +228,4 @@ To orchestrate and run virtual machines, you typically need virtualization softw
 #### What is the importance of an image when creating an VM?
 
 An image plays a crucial role when creating a virtual machine (VM). It serves as a template or blueprint for the VM's initial configuration and contents.
+ 
